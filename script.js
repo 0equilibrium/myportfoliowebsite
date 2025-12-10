@@ -85,8 +85,8 @@ const appsData = [
         title: "수익률 계산기 (CAGR)",
         description: "복리, 연평균 수익률(CAGR) 계산기 for smart investing.",
         url: "https://play.google.com/store/apps/details?id=com.brnlsf.cagrcalculator",
-        icon: "https://play-lh.googleusercontent.com/95oOQWjP-u8g-0_q8Y0-tYwB-eR_S0z_9Xy9j-N9zQo_3S9mG1f-rQ1N2zU=s128-rw",
-        isImage: true,
+        icon: "fa-solid fa-chart-line",
+        isImage: false,
         tags: ["Android", "Finance"],
         color: "#f97316"
     }
