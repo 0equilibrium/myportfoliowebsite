@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <meta name="description" content="Showcase of my apps and web services.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="background-animation"></div>
+
+    <main class="container">
+        <header class="profile-header">
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark/Light Mode">
+                <i class="fa-solid fa-sun"></i>
+            </button>
+
+            <div class="profile-image-container">
+                <!-- You can replace this with your own image url in script.js or structure -->
+                <div class="profile-avatar">
+                    <i class="fa-solid fa-rocket"></i>
+                </div>
+            </div>
+            <h1 class="profile-name">My Creative Lab</h1>
+            <p class="profile-bio">Building tools that matter. Explore my apps and services below.</p>
+
+            <div class="social-links">
+                <!-- Example social links, these can also be dynamic if needed -->
+                <a href="#" class="social-btn"><i class="fa-brands fa-github"></i></a>
+                <a href="#" class="social-btn"><i class="fa-brands fa-twitter"></i></a>
+                <a href="mailto:contact@example.com" class="social-btn"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </header>
+
+        <section id="app-grid" class="app-grid">
+            <!-- App Cards will be injected here by script.js -->
+        </section>
+
+        <footer>
+            <p>&copy; <span id="year"></span> My Portfolio. All rights reserved.</p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
