@@ -114,6 +114,7 @@ body.light-mode .background-animation {
     margin-bottom: 0.5rem;
     background: linear-gradient(to right, #fff, #b3b3b3);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
